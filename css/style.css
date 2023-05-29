@@ -185,7 +185,7 @@ button:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #fff;
+	background: #000000;
 }
 
 .loader {
@@ -507,7 +507,7 @@ a.navbar-brand img {
 }
 
 .theme_color {
-	color: #d8fffe;
+	color: #ffffff;
 }
 
 
@@ -675,7 +675,7 @@ a.navbar-brand img {
 }
 
 .slide_text {
-    margin-top: 220px;
+    margin-top: 80px;
     padding-left: 0;
 }
 
