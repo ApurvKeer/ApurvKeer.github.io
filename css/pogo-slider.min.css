@@ -189,9 +189,9 @@
 .pogoSlider--navBottom .pogoSlider-nav,
 .pogoSlider--navTop .pogoSlider-nav {
 	left: 50%;
-	-webkit-transform: translateX(-50%);
+	/* -webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
-	transform: translateX(-50%)
+	transform: translateX(-50%) */
 }
 
 .pogoSlider--navTop .pogoSlider-nav {
@@ -381,16 +381,8 @@
 	}
 }
 
-.pogoSlider-animation-slideRightIn {
-	-webkit-animation-name: slideRightIn;
-	animation-name: slideRightIn
-}
 
-.pogoSlider-animation-slideRightOut {
-	-webkit-animation-name: slideRightOut;
-	animation-name: slideRightOut
-}
-
+/* 
 @-webkit-keyframes slideRightIn {
 	0% {
 		-webkit-transform: translateX(-50px);
@@ -503,7 +495,7 @@
 		transform: translateX(-50px);
 		opacity: 0
 	}
-}
+} */
 
 .pogoSlider-animation-expandIn {
 	-webkit-animation-name: expandIn;
@@ -1797,7 +1789,7 @@
 		transform: translateY(-100%)
 	}
 }
-
+/* 
 .pogoSlider-animation-rightIn {
 	-webkit-animation-name: rightIn;
 	animation-name: rightIn;
@@ -1913,4 +1905,4 @@
 		transform: translateX(-100%)
 	}
 }
-
+ */
