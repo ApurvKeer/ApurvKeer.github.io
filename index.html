@@ -51,8 +51,8 @@
     <!-- Start header -->
     <header class="top-header">
         <nav class="navbar header-nav navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Apurv Keer</a>
+            <div class="container-fluid" >
+                <a class="navbar-brand text_color" href="index.html">Apurv Keer</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -60,13 +60,34 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#about">About</a></li>
-                        <li><a class="nav-link" href="#primary">Primary Research</a></li>
-                        <li><a class="nav-link" href="#others">Other Works</a></li>
-						<!-- <li><a class="nav-link" href="news.html">News</a></li> -->
-						<li><a class="nav-link" href="#contact">Contact</a></li>
+                        <li><a class="nav-link active text_color" href="#home">Home</a></li>
+                        <li><a class="nav-link text_color" href="#about">About</a></li>
+                        <li><a class="nav-link text_color" href="#primary">Primary Research</a></li>
+                        <li><a class="nav-link text_color" href="#others">Other Works</a></li>
+						            <!-- <li><a class="nav-link" href="news.html">News</a></li> -->
+						            <li><a class="nav-link text_color" href="#contact">Contact</a></li>
                     </ul>
+                      <div class="toggleWrapper" style="scale: 60%; margin-top: -0.6%; margin-left: 39%">
+                        <input type="checkbox" class="dn" id="dn">
+                        <label for="dn" class="toggle">
+                            <span class="toggle__handler">
+                                <span class="crater crater--1"></span>
+                                <span class="crater crater--2"></span>
+                                <span class="crater crater--3"></span>
+                            </span>
+                            <span class="star star--1"></span>
+                            <span class="star star--2"></span>
+                            <span class="star star--3"></span>
+                            <span class="star star--4"></span>
+                            <span class="star star--5"></span>
+                            <span class="star star--6"></span>
+                        </label>
+                      </div>
+                      <script>
+                          document.getElementById("dn").addEventListener("click", function(){
+                          document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+                          });
+                      </script>
                 </div>
             </div>
         </nav>
@@ -77,9 +98,10 @@
     <div class="ulockd-home-slider" id="home">
         <div class="container-fluid">
             <div class="row">
-              <div class="slide_text" style="background-image:url(images/blackhole.jpg); width: 100%; height: 500px;
-              background-position: center;">
-                <div style="margin-top: 12%;">
+              <div class="slide_text" style="background-image:url(images/blackhole.png); width: 100%; height: 700px;
+background-position: center; margin-top: 4%">
+                <div style="margin-top: 18%; margin-left: 35%; border-radius: 10px; background: black; padding: 10px; width: 500px; 
+                opacity: 70%">
                   <h2><span span class="theme_color"><center>Myself<br></center></span></h2>
                   <h3>Apurv Keer</h3>
                   <h2><span span class="theme_color"><br><center>Third Year Undergraduate at IIT Bombay</center></span></h2>
@@ -97,12 +119,12 @@
                 <div class="col-md-6 layout_padding_2">
                     <div class="full">
                         <div class="heading_main text_align_left">
-						   <h2><span>About</span></h2>
+						   <h2><span class="text_color2">About</span></h2>
                         </div>
 						<div class="full">
-						  <p>I am Apurv, a third year undergrad in the Department Of Physics, IIT Bombay. I am interested in Black Hole Physics, General Relativity and Modified Gravity Theories.</p>
+						  <p class="text_color">I am Apurv, a third year undergrad in the Department Of Physics, IIT Bombay. I am interested in Black Hole Physics, General Relativity and Modified Gravity Theories.</p>
 						</div>
-						<div class="full">
+						<div class="full text_color2">
 						   <a class="hvr-radial-out button-theme" href="pdf/Apurv_s_CV.pdf">Curriculum Vitae</a>
 						</div>
                     </div>
@@ -248,7 +270,7 @@
                 <div class="col-md-12">
                     <div class="full">
                         <div class="heading_main text_align_center">
-						   <h2><span>Primary </span>Research</h2>
+						   <h2><span class="text_color2">Primary </span>Research</h2>
                         </div>
 					  </div>
                 </div>
@@ -283,7 +305,7 @@
                 <div class="col-md-12">
                     <div class="full">
                         <div class="heading_main text_align_center">
-						   <h2><span>Other </span>Works</h2>
+						   <h2><span class="text_color2">Other </span>Works</h2>
                         </div>
 					  </div>
                 </div>
